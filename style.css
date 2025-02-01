@@ -7,4 +7,7 @@
         --color-accent: #F38181;
         --color-yellow: #FCE38A;
     }
-    
+    :root {
+      --main-font: "Raleway" , "sans-serif";
+      --second-font: "Roboto" , "sans-serif";
+    }
