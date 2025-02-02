@@ -6,8 +6,6 @@
         --color-card-bg: #F8F8F8;
         --color-accent: #F38181;
         --color-yellow: #FCE38A;
-    }
-    :root {
-      --main-font: "Raleway" , "sans-serif";
-      --second-font: "Roboto" , "sans-serif";
-    }
+        --main-font: "Raleway" , "sans-serif";
+    --second-font: "Roboto" , "sans-serif";
+      }
