@@ -9,86 +9,194 @@
         --main-font: "Raleway", "sans-serif";
         --second-font: "Roboto", "sans-serif";
       }
-    
-    body {
-         color: #757575;
-         background-color: #FFFFFF;
+
+      body {
+        color: #757575;
+        background-color: #FFFFFF;
         font-family: "Roboto", sans-serif;
-    }
-    .container {
-         width: 1170px;
-         margin: 0 auto;
-    }
-    
-    .header {
-      margin-bottom: 80px;
-    }
-    
-    .details {
-      margin-bottom: 94px;
-    }
-    
-    .doing {
-      margin-bottom: 94px;
-    }
-    
-    .team {
-      margin-bottom: 34px;
-    }
-    
-    .header-logo {
-        padding-top: 24px;
-        padding-bottom: 25px;
-    }
-    
-    .contact-item,
-    .nav-list{
+      }
+
+      .container {
+        width: 1170px;
+        margin: 0 auto;
+      }
+
+      .header {
+        margin-bottom: 80px;
+      }
+
+      .header-container {
+        align-items: baseline;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .about-list,
+      .nav-list {
+        display: flex;
+        justify-content: space-between;
         padding-top: 32px;
         padding-bottom: 32px;
-         margin-bottom: 94px; 
-    }
-    
-    .hero {
+        gap: 50px;
+      }
+      .hero {
         padding-top: 200px;
         padding-bottom: 280px;
-    }
-    
-    .details {
+      }
+      .hero-container {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+      }
+      .hero-button {
+        margin: 0 auto;
+      }
+
+      .details {
+        margin-bottom: 94px;
+      }
+
+      .about {
+        margin-bottom: 94px;
+      }
+
+      .team {
+        margin-bottom: 34px;
+      }
+
+      .header-logo {
+        padding-top: 24px;
+        padding-bottom: 25px;
+      }
+
+      .contact-item,
+      .nav-list {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-bottom: 94px;
+      }
+
+      .hero {
+        padding-top: 200px;
+        padding-bottom: 280px;
+      }
+
+      .details {
         padding-bottom: 94px;
-    }
-    
-    .doing-title {
+      }
+
+      .doing-title {
         padding-bottom: 50px;
-    }
-    
-    .doing-item {
+      }
+
+      .doing-item {
         padding-bottom: 94px;
-    }
-    
-    .team-title {
+      }
+
+      .team-title {
         padding-top: 94px;
         padding-bottom: 50px;
-    }
-    
-    .team-list {
+      }
+
+      .team-list {
         padding-bottom: 94px;
-    }
-    
-    .footer-logo {
+      }
+
+      .footer-logo {
         padding-top: 60px;
         padding-bottom: 20px;
-    }
-    
-    .footer-address {
+      }
+
+      .footer-address {
         padding-bottom: 60px;
-    }
-    
-    
-    .control {
-      margin-top: 94px;
-      margin-bottom: 34px;
-    }
-    
-    .-portfolio-item{
-      margin-bottom: 30px;
-    }
+      }
+
+
+      .control {
+        margin-top: 94px;
+        margin-bottom: 34px;
+      }
+
+      .portfolio-item {
+        margin-bottom: 30px;
+      }
+      .details {
+        padding-bottom: 94px;
+      }
+      .details-list {
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+      }
+      .about-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .about-list {
+        padding-bottom: 94px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        gap: 30px;
+      }
+      .about-title {
+        padding-bottom: 50px;
+        margin: 0 auto;
+      }
+      .team-container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      
+      .team-title {
+        padding-left: 453px;
+        padding-right: 453px;
+        margin: 0 auto;
+        padding-top: 94px;
+        padding-bottom: 50px;
+      }
+      
+      .team-list {
+        padding-bottom: 94px;
+          display: flex;
+          justify-content: space-between;
+          margin: 0 auto;
+          gap: 30px;
+      }
+      .footer-container {
+        display: flex;
+        flex-direction: column;
+      }
+      .footer-logo {
+        padding-top: 60px;
+        padding-bottom: 20px;
+      }
+      
+      .address {
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+      }
+      .category-list {
+        padding: 94px 298px 34px 297px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+      }
+      .portfolio-container {
+        display: flex;
+        margin: 0 auto;
+      }
+      .portfolio-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 120px;
+        padding: 0 0 0 0;
+      }
+      .portfolio-item {
+        height: 404px;
+        width: 370px;
+      }
